@@ -1,2 +1,3 @@
 # $${\color{red}A\space STUDY\space OF\space DIFFERENT\space FACTORS\space AFFECTING\space STUDENTS\space RESULTS}$$
-This project analyzes whether different factors has a significant impact on students’ results or not.
+## $${Objective}$$
+The present generation of students tends to spend time at different things rather than studying. It is readily seen that students use mobile phones for different things. Even students use mobile phones for study purposes also. Is this actually good for students? Or using mobile phone creating a negative impact on students’ results? Well, this project aims to analyze this whole situation. Not only impact of usage of mobile phone on students’ results, this project deals with different factors which might affect students’ results, like involvement in extracurricular activities, involvement in sports, etc. In one word this project analyzes whether different factors has a significant impact on students’ results or not.
