@@ -1,0 +1,23 @@
+R Code for data cleaning:
+>data=read.csv(“C\\Whole Data.csv”, header=T,sep= “,”)
+>dim(data)
+>data=data[,-1]
+>data=na.omit(data)
+>rownames(data)=NULL
+>SGPA=as.matrix(data[,6:9])
+>class(SGPA);typeof(SGPA)
+>sem.mean=rowMeans(SGPA)
+>screen.time=data[,12]
+>screen.time=factor(screen.time)
+>str(screen.time)
+>on.screen.study=data[,13]
+>on.screen.study=factor(on.screen.study)
+>str(on.screen.study)
+>hobbies=data[,18]
+>hobbies=factor(hobbies)
+>sports=data[,23]
+>sports=factor(sports)
+
+R Code for ANOVA:
+>model1=aov(sem.mean~screen.time)
+>summary(model1)
